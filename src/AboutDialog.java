@@ -9,7 +9,7 @@ public class AboutDialog extends JDialog {
     private final int WIDTH = 300;
     private final int HEIGHT = 150;
 
-    public AboutDialog(JFrame parent) {
+    AboutDialog(JFrame parent) {
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
@@ -25,7 +25,6 @@ public class AboutDialog extends JDialog {
     }
 
     private void onOK() {
-        // add your code here
         dispose();
     }
 }
